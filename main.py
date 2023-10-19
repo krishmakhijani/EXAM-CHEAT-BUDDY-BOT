@@ -68,5 +68,19 @@ def main():
                 st.session_state.conversation = get_conversational_chain(vector_store)
                 st.success("Done")
 
+    st.markdown(
+    '<style>'
+    '.made-with-love {'
+    '    background-color: rgb(14,17,23);; /* Dark background color */'
+    '    color: #ffffff; /* White text color */'
+    '    text-align: center;'
+    '    padding: 10px;'
+    '    bottom: 0;'
+    '    width: 100%;'
+    '}'
+    '</style>'
+    '<div class="made-with-love">Made with ❤️ by Krish Makhijani</div>'
+, unsafe_allow_html=True)
+
 if __name__ == "__main__":
     main()
