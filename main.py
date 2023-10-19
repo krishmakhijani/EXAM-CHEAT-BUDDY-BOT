@@ -67,27 +67,6 @@ def main():
                 vector_store = get_vector_store(text_chunks)
                 st.session_state.conversation = get_conversational_chain(vector_store)
                 st.success("Done")
-    st.markdown(
-    '<style>'
-    '.made-with-love {'
-    '    background-color: rgb(14,17,23); /* Dark background color */'
-    '    color: #ffffff; /* White text color */'
-    '    text-align: center;'
-<<<<<<< HEAD
-    '    padding: 14px;'
-    '    padding-right: 668px;'
-=======
-    '    padding: 14px;
->>>>>>> c8deca8f5fa46f052c4c29de34ee3aa999f93b2f
-    '    position: fixed;'
-    '    bottom: 0;'
-    '    width: 100%;'
-    '   padding-right: 668px;'
-    '}'
-
-    '</style>'
-    '<div class="made-with-love">Made with ❤️ by <a id="hii"href="https://www.linkedin.com/in/krishmakhijani/" title="Krish Makhijani">Krish Makhijani</a></div>',
-    unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
