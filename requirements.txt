@@ -1,0 +1,11 @@
+pydantic
+google.generativeai
+langchain
+nbconvert
+nbformat
+numpy
+pandas
+protobuf
+PyPDF2
+streamlit
+faiss-cpu
